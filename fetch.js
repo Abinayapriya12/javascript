@@ -1,16 +1,3 @@
- /*    async function fetchData(url){
-    try{
-        const data=await fetch(url)
-        const convertedData=await data.json()
-        console.log(convertedData)
-    }
-    catch(e){
-           console.log("error occur",e.message)
-    }
-}
-fetchData("https://jsonplaceholder.typicode.com/posts/1") 
-fetchData()  */
-
  async function withIn(){
     const response=await fetch("https://jsonplaceholder.typicode.com/posts/1")
     {if(!response)
@@ -25,4 +12,5 @@ fetchData()  */
     }catch(e){console.log("error",e.message)
 
     }
+
  } values()
